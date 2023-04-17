@@ -1,0 +1,10 @@
+{
+  "estados": [
+    {"id": 0, "transiciones": {"a": [1], "b": [2]}, "final": false},
+    {"id": 1, "transiciones": {"a": [1], "b": [3]}, "final": false},
+    {"id": 2, "transiciones": {"a": [3], "b": [2]}, "final": true},
+    {"id": 3, "transiciones": {"a": [3], "b": [3]}, "final": true}
+  ],
+  "inicial": 0,
+  "alfabeto": ["a", "b"]
+}
